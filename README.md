@@ -20,7 +20,7 @@ I pivoted to a virtualization approach to leverage the stability of x86 architec
 2.  **The Network Bridge:** Since the VM operates behind a NAT network (isolated from physical devices), I engineered a **Port Forwarding** solution to allow external agents to communicate with the internal server via the Host IP.
 
 **Network Topology:**
-
+```text
 [Physical Network]
       |
       +--- [Windows 11 Host] (The Gateway)
@@ -33,6 +33,7 @@ I pivoted to a virtualization approach to leverage the stability of x86 architec
       +--- [Raspberry Pi 5] (Linux Agent) --> Sends logs to Windows Host IP
       |
       +--- [MacBook Pro] (macOS Agent) --> Sends logs to Windows Host IP
+```
 ##  Technical Implementation
 
 ### 1. Infrastructure Setup

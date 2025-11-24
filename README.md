@@ -85,7 +85,7 @@ Upon enabling the **Vulnerability Detector** module, the initial scan revealed s
 * **Remediation:** Executed an **Attack Surface Reduction** strategy by uninstalling the vulnerable software, effectively bringing the critical count to zero.
 
 *(Vulnerability Scan Report)*
-![Vulnerability Report](images/vulnerability-scan.jpg)
+![Vulnerability Report](images/vulnerability-scan.png)
 
 ---
 

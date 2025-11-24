@@ -81,8 +81,8 @@ To validate the detection capabilities, I conducted a live **SSH Brute-Force** a
 
 Upon enabling the **Vulnerability Detector** module, the initial scan revealed significant risks on the Windows endpoint:
 * **Finding:** **23 Critical Vulnerabilities** (CVEs) detected.
-* **Root Cause:** An outdated and unused installation of **Mozilla Firefox**.
-* **Remediation:** Executed an **Attack Surface Reduction** strategy by uninstalling the vulnerable software, effectively bringing the critical count to zero.
+* **Root Cause:** An outdated and unused installation of **Mozilla Firefox** & **Google Chrome**.
+* **Remediation:** Executed an **Attack Surface Reduction** strategy by uninstalling the vulnerable softwares, effectively bringing the critical count to zero.
 
 *(Vulnerability Scan Report)*
 ![Vulnerability Report](images/vulnerability-scan.png)
